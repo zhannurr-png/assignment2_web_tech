@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    padding: 0;
+    background-color: #FFE6A7;
     font-family: Arial, sans-serif;
 }
 
@@ -8,11 +10,11 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    background-color: #051F45;
+    background-color: #432818;
 }
 
 .logo {
-    color: white;
+    color: #FFE6A7;
     font-size: 24px;
     font-weight: bold;
 }
@@ -23,11 +25,11 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: #FFE6A7;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 nav a:hover {
-    color: #F2C4CD;
+    color: white;
 }
