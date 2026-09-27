@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    background-color: #FEFAE0;
+    color: #283618;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #283618;
+    color: #FEFAE0;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+    gap: 25px;
+}
+
+.navbar a {
+    color: #FEFAE0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #DDA15E;
+}
+
+.main {
+    width: 85%;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+}
+
+.projects {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.projects h1 {
+    margin-top: 0;
+}
+
+.project-card {
+    background-color: #FEFAE0;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid #DDA15E;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.project-text {
+    flex: 1;
+}
+
+.project-text h2 {
+    margin-top: 0;
+}
+
+.project-text p {
+    line-height: 1.5;
+}
+
+.button {
+    background-color: #606C38;
+    color: #FEFAE0;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    white-space: nowrap;
+}
+
+.button:hover {
+    background-color: #283618;
+}
+
+.sidebar {
+    background-color: #606C38;
+    color: #FEFAE0;
+    padding: 30px;
+    border-radius: 12px;
+    height: fit-content;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+}
+
+.sidebar h3 {
+    margin-top: 30px;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+
+.footer {
+    background-color: #283618;
+    color: #FEFAE0;
+    text-align: center;
+    padding: 10px;
+}
+
+@media (max-width: 700px) {
+    .header {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .navbar {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main {
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+
+    .project-card {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
