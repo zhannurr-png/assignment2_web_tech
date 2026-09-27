@@ -16,6 +16,13 @@ and CSS Grid.
 - Task 3 - Image Gallery
 - Task 4 - Portfolio Page
 
+## Instructions
+
+1. Clone the repository or download the project files.
+2. Open the project in Visual Studio Code.
+3. Open `task0.html` in a browser to start the assignment.
+4. Use the navigation bar to move between Task 0, Task 1, Task 2, Task 3, and Task 4.
+
 ## Technologies
 
 - HTML5
@@ -25,4 +32,4 @@ and CSS Grid.
 
 ## Website
 
-https://zhannurr-png.github.io/assignment2_web/
+https://github.com/zhannurr-png/assignment2_web_tech.git
